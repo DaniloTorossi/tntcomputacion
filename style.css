@@ -1,6 +1,8 @@
-.back-header{
-    background-color: black;
+body{
+background: rgb(10,56,193);
+background: linear-gradient(90deg, rgba(10,56,193,1) 0%, rgba(10,218,255,1) 35%, rgba(156,46,255,1) 100%);
 }
 .font-nav{
     color: white;
 }
+
