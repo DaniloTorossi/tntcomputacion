@@ -6,3 +6,20 @@ background: linear-gradient(90deg, rgba(10,56,193,1) 0%, rgba(10,218,255,1) 35%,
     color: white;
 }
 
+#nosotros{
+    background-color:#F0F2F2;
+}
+#productos{
+    background-color:#F0F2F2;
+}
+#contacto{
+    background-color:#F0F2F2;
+}
+.card-productos{
+    background-image: url(/img/img-card/fondotnt.jpeg);
+    background-size: 100%;
+}
+footer{
+    color: white;
+    background-color: black;
+}
