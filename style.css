@@ -18,9 +18,7 @@ body {
             background-position: 0% 50%;
         }
     }
-.font-nav{
-    color: white;
-}
+
 
 #nosotros{
     background-color:#F0F2F2;
@@ -34,10 +32,12 @@ body {
 .card-productos{
     background-image: url(/img/img-card/fondotnt.jpeg);
     background-size: 100%;
+    padding: 0;
 }
 footer{
     color: white;
     background-color: black;
+    width: 60vh;
 }
 
 /* Estilizacion de enlaces */
@@ -46,5 +46,53 @@ footer{
     color: rgb(10,56,193)k;
     font-size: 1rem;
     font-weight: 600;
-
 }
+
+/*Estilo del toggler*/
+.navbar-toggler:hover{
+    color: #ffa260;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+.navbar-toggler{
+    --color: #ffa260;
+    --hover: #e5ff60;
+  }
+  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+
+/* Breaking point */
+@media only screen and (max-width: 767px){ 
+    .separacion{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+   .navbar-toggler{
+    background-color: #afb2bb3a;
+   }
+   .font-nav{
+    color: #ffa260;
+   }
+}
+
+
