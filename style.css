@@ -90,17 +90,17 @@ footer{
 /* Breaking point */
 @media only screen and (max-width: 767px){ 
     .separacion{
-    padding: 10%;
-    margin-top: 5px;
+    margin-top: 1rem;
     } 
     .padding{
-        width: 387px;
-        height: 739.3px;
-        margin-top: 20px;
+        width: 24.18rem;
+        height: 46.18rem;
+        margin-top: 1rem;
     }
     .contacto{  width: 387px;
-        height: 739.3px;
+        height: 46.18rem;
         margin-top: 20px;
+        margin-bottom: 1rem;
     }
    .navbar-toggler{
     background-color: #afb2bb3a;
@@ -114,16 +114,17 @@ footer{
 @media only screen and (max-width: 993px){ 
     .separacion{
     padding: 10%;
-    margin-top: 5px;
+    margin-top: 1rem;
     } 
     .padding{
-        width: 387px;
-        height: 739.3px;
-        margin-top: 20px;
+        width: 24.18rem;
+        height: 46.18rem;
+        margin-top: 1rem;
     }
-    .contacto{  width: 387px;
-        height: 739.3px;
+    .contacto{  width: 24.18rem;
+        height: 46.20rem;
         margin-top: 20px;
+        margin-bottom: 1rem;
     }
    .navbar-toggler{
     background-color: #afb2bb3a;
