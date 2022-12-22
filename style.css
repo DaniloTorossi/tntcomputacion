@@ -95,9 +95,8 @@ footer{
         height: 46.18rem;
         margin-top: 1rem;
     }
-    .contacto{  width: 387px;
-        height: 46.18rem;
-        margin-top: 20px;
+    .contacto{  
+        margin-top: 1rem;
         margin-bottom: 1rem;
     }
    .navbar-toggler{
@@ -111,7 +110,6 @@ footer{
 
 @media only screen and (max-width: 993px){ 
     .separacion{
-    padding: 10%;
     margin-top: 1rem;
     } 
     .padding{
@@ -119,9 +117,8 @@ footer{
         height: 46.18rem;
         margin-top: 1rem;
     }
-    .contacto{  width: 24.18rem;
-        height: 46.20rem;
-        margin-top: 20px;
+    .contacto{  
+        margin-top: 1rem;
         margin-bottom: 1rem;
     }
    .navbar-toggler{
@@ -131,3 +128,4 @@ footer{
     color: #ffa260;
    }
 }
+
