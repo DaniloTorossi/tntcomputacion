@@ -15,7 +15,7 @@
 <body>
   <section>
     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light back-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="/img/img-nav/tnt blanco sin fondo.png" alt="" width="90%" height="90">
@@ -27,16 +27,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" style="color: white;" aria-current="page" href="#nosotros">Nosotros</a>
+              <a class="nav-link active" aria-current="page" style="color: white;" href="#nosotros">Nosotros</a>
               <a class="nav-link" href="#productos" style="color: white;">Productos</a>
               <a class="nav-link" href="#nosotros" style="color: white;">Contacto</a>
+              <a class="nav-link disabled"></a>
             </div>
           </div>
-        </div>
         </div>
       </nav>
     </header>
   </section>
+
+
+
   <section>
     <section>
       <div class="video-bg-container">
@@ -46,45 +49,45 @@
       </div>
     </section>
   </section>
-  <section class="container-fluid">
-    <section class="pt-5">
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="/img/1920x730.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="/img/Asus NB.jpg" class="d-block w-100" alt="Asus">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="/img/Corsair_nuevo.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="/img/asus-mother.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="/img/mother-ahirus.png" class="d-block w-100" alt="...">
-          </div>
+
+  <section class="pt-5 w-100">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="/img/1920x730.jpg" class="d-block w-100" alt="">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="/img/Asus NB.jpg" class="d-block w-100" alt="Asus">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="/img/Corsair_nuevo.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="/img/asus-mother.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="/img/mother-ahirus.png" class="d-block w-100" alt="...">
+        </div>
       </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
+
 
   <section>
     <div class="container text-center">
       <div class="row">
-        <div class="col-lg-4 col-sm-11 col-md-8 d-flex align-items-stretch aos-init aos-animate separacion mx-auto" data-aos="fade-up"
-          data-aos-delay="100">
+        <div class="col-lg-4 col-sm-11 col-md-8 d-flex align-items-stretch aos-init aos-animate separacion mx-auto"
+          data-aos="fade-up" data-aos-delay="100">
           <div class="card" id="nosotros">
             <img src="/img/img-card/tnt-card.jpeg" class="card-img-top" alt="..." width="30%" height="40%">
 
@@ -100,11 +103,12 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-11 col-12 col-md-8 d-flex align-items-stretch aos-init aos-animate mx-auto separacion" data-aos="fade-up"
-          data-aos-delay="100">
+        <div
+          class="col-lg-4 col-sm-11 col-12 col-md-8 d-flex align-items-stretch aos-init aos-animate mx-auto separacion"
+          data-aos="fade-up" data-aos-delay="100">
           <div class="card" id="productos">
             <img src="/img/img-card/Pc-Gamer.png" class="card-img-top card-productos" alt="..." width="30%"
-            height="40%">
+              height="40%">
 
             <div class="card-body">
               <h5 class="card-title">Productos</h5>
@@ -119,8 +123,8 @@
             </div>
           </div>
         </div>
-        <div class="col  d-flex justify-content-center align-items-stretch aos-init  aos-animate mx-auto contacto" data-aos="fade-up"
-          data-aos-delay="100">
+        <div class="col d-flex justify-content-center align-items-stretch aos-init  aos-animate mx-auto contacto"
+          data-aos="fade-up" data-aos-delay="100">
           <div class="card" id="contacto">
             <img
               src="https://t1.uc.ltmcdn.com/es/posts/0/8/7/como_encontrar_las_mejores_formas_de_contacto_de_las_empresas_50780_600.webp"
@@ -152,15 +156,14 @@
       </div>
     </div>
   </section>
-<div>
+  <div>
     <footer class="container-fluid fixed-bottom">
       <p class="text-center">Desarrollado por TNT Computación</p>
     </footer>
-</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-
-  </body >
-</html >
+</html>

@@ -49,28 +49,6 @@ footer{
 }
 
 /*Estilo del toggler*/
-.navbar-toggler:hover{
-    color: #ffa260;
-}
-.navbar-toggler:focus{
-    box-shadow: 0 0.5em 0.5em -0.4em var(hover);
-  -webkit-transform: translateY(-0.25em);
-          transform: translateY(-0.25em);
-}
-.navbar-toggler{
-    --color: #ffa260;
-    --hover: #e5ff60;
-  }
-  button {
-    color: var(--color);
-    -webkit-transition: 0.25s;
-    transition: 0.25s;
-  }
-
-  button:hover, button:focus {
-    border-color: var(--hover);
-    color: #fff;
-  }
 
   button {
     background: none;
@@ -79,7 +57,7 @@ footer{
     line-height: 1;
     margin: 0.5em;
     padding: 1em 2em;
-  }
+  } 
 
   .padding{
     padding: 0;
@@ -99,12 +77,7 @@ footer{
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-   .navbar-toggler{
-    background-color: #afb2bb3a;
-   }
-   .font-nav{
-    color: #ffa260;
-   }
+   
 }
 
 
@@ -121,11 +94,5 @@ footer{
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-   .navbar-toggler{
-    background-color: #afb2bb3a;
-   }
-   .font-nav{
-    color: #ffa260;
-   }
 }
 
